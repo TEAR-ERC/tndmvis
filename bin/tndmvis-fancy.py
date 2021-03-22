@@ -80,4 +80,4 @@ if args.cmap:
     cmap = ListedColormap(cmap_data)
 
 mesh = combine_mesh(args.pvd)
-plot(mesh, args.slip, args.v, cmap)
+plot(mesh, args.slip, args.slip_rate, cmap)
